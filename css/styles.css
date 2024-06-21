@@ -172,11 +172,10 @@ img {
 
 .description {
     padding:120px 0 120px 0;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.15), rgba(0, 0, 255, 0.15)), url(/images/people-office\ 1\ \(1\).jpg);
+    background-image: url(/images/photo1.jpg);
     background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  color: #fff;
+    background-position: center center;
+    background-size: cover;
 }
 
 .visually-hidden {
