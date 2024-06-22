@@ -94,10 +94,10 @@ img {
     padding: 24px 0 24px 0;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .nav {display: flex;
     align-items: center;
-    color: #404bbf;
 }
 
 .currentlink {font-weight: 500;
@@ -113,7 +113,7 @@ img {
 }
 
 .currentlink::after {
-    content:"";
+    content:'';
     width: 100%;
     position:absolute;
     left: 0;
@@ -313,7 +313,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .icon.item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social.link {
@@ -322,6 +321,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     height: 100%;
     background-color: #4d5ae5;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .social.link:hover {
@@ -392,6 +392,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     overflow: hidden;
 }
 
+.image-container:hover {
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .image-text {
     position:absolute;
     top: 0;
@@ -458,18 +462,18 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .iconitem {
     width: 40px;
     height: 40px;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 
 
 .social-link {
     width: 100%;
-    height: 100%;
+    height:100%;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .social-link:hover {
