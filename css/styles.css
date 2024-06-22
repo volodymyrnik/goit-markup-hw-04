@@ -97,12 +97,11 @@ img {
 }
 .nav {display: flex;
     align-items: center;
-    position: relative;
     color: #404bbf;
 }
 
 .currentlink {font-weight: 500;
-    color:#2e2f42; 
+    color:#404bbf; 
     line-height: 1.5;   
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -110,6 +109,7 @@ img {
     display: flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
 }
 
 .currentlink::after {
@@ -367,6 +367,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     row-gap: 48px;
 }
 
+.ul-images:hover{
+    transform: translateY(0%);
+}
+
 .portfolio-li {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -374,7 +378,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .portfolio-li:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
 
 .container-portfolio {
@@ -455,7 +458,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .iconitem {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
