@@ -311,7 +311,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     height: 40px;
 }
 
-.social.link {
+.socialmedialink {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     width: 100%;
@@ -320,14 +320,14 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
   }
 
-.social.link:hover {
+.socialmedialink:hover {
     background-color: #404bbf;
 }
 
-.social.link:focus {
+.socialmedialink:focus {
     background-color: #404bbf;
 }
 .center {
