@@ -251,6 +251,7 @@ img {
 .team-ul-first {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background-color: #ffffff;
 }
 
@@ -317,6 +318,12 @@ img {
 
 .footer {background-color: #2e2f42;
         padding:100px 0;}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .studio {color: #f4f4fd; }
 .text {color: #F4F4FD;
     line-height: 1.5;
@@ -359,6 +366,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 24px;
         width: 170px;
         height: 92px;
         border: 1px solid var(--icons-color);
